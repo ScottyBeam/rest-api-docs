@@ -23,7 +23,7 @@ Body response example.
 
 Code     | Http Code | Message                        | Description
 ---------|-----------|--------------------------------|-----
--290     | 403       | Forbidden action for teleport. | The sender of the finish teleport transaction must be the recipient of the first transaction to complete the teleportation (start teleport); either the sender or the recipient can initiate start teleport cancel or finish teleport cancel.
+-290     | 403       | Forbidden action.              | The sender of the finish teleport transaction must be the recipient of the first transaction to complete the teleportation (start teleport); either the sender or the recipient can initiate start teleport cancel or finish teleport cancel.
 -280     | 404       | Teleport was not found.        | Teleport with the requested data was not found, or teleport awaits start teleport transaction confirmations.
 -270     | 422       | Unsupported token.             | Token must support ERC165, ERC721 and ERC721Metadata interfaces.
 -250     | 409       | Teleport state conflict.       | Due to the teleport state, the operation cannot be completed. Example: teleport already completed.

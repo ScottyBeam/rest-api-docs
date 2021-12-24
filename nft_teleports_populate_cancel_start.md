@@ -33,7 +33,7 @@ Name            |        Type | Description
 ----------------|-------------|------
 200 OK          | Transaction | OK
 400 Bad Request | Error       | See the request requirements.
-403 Forbidden   | Error       | Forbidden.
+403 Forbidden   | Error       | Forbidden action.
 404 Not found   | Error       | Teleport was not found.
 409 Conflict    | Error       | Teleport state conflict.
 

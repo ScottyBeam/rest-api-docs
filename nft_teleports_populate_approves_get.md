@@ -1,6 +1,6 @@
 # Populate teleport approves
 
-Get only necessary teleport approve transactions data.  
+Get transaction data that is necessary to make teleport transactions.  
 Transactions are executed on a source chain.  
 Returns `[]`, if no approve required.
 
